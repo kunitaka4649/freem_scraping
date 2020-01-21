@@ -5,8 +5,8 @@ driver_path = os.path.dirname(os.path.abspath(__file__)) + '/../chrome_driver/ch
 csv_path = os.path.dirname(os.path.abspath(__file__)) + '/../csv/ranking_data'
 csv_path_all_data = os.path.dirname(os.path.abspath(__file__)) + '/../csv/deep_date'
 # personal information
-my_id = 'kunetpoint@gmail.com'
-my_pw = 'lemon232'
+my_id = '-'
+my_pw = '-'
 # url
 freem_login_page = 'https://www.freem.ne.jp/account/login'
 freem_ranking_page = 'https://www.freem.ne.jp/win/ranking/download/weekly/page-'
