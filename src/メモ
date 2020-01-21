@@ -1,0 +1,2 @@
+seleniumにおいて、表示されていないテキストは.get_attribute("textContent")で表示する
+xpathで取れなかった場合は、selectorでとるとうまく行くときがある(空白文字などが入っている場合有効)
