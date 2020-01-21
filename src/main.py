@@ -94,7 +94,7 @@ def main():
     b = bot.Bot(c.driver_path)
     b.login(c.freem_login_page, c.freem_login_id_xpath, c.my_id, c.freem_login_pw_xpath, c.my_pw, c.freem_login_done_xpath)
 
-    #get_front_info_of_games(b, 1000)
+    get_front_info_of_games(b, 1000)
     print("start - search - all - data")
     get_deep_info_of_games(b)
 
